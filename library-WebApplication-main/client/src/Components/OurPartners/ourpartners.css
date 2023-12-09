@@ -1,0 +1,65 @@
+.ourpartners {
+    background-image: url('../../assets/images/library.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    font-family: "Droid Sans-Bold", Helvetica;
+    padding: 20px; 
+    height: 270vh;
+}
+
+.overlay-content h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-content a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 94%;
+    left: 50%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.overlay-content span {
+    position: absolute;
+    top: 95%;
+    left: 48%;
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: red;
+}
+
+.card-wrapper {
+    position: absolute;
+    top: 12%; 
+    left: 15.5%;
+   
+}
+@media (max-width: 768px) {
+
+    .ourpartners{
+        height: 120vh;
+    }
+    .overlay-content h1 {
+        font-size: 20px; 
+    }
+    .overlay-content a {
+        font-size: 15px; 
+    }
+    .overlay-content span {
+        width: 35px;
+        left: 46%;
+    }
+    .card-wrapper > div {
+        min-width: calc(50% - 20px); 
+    }
+}

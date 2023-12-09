@@ -1,0 +1,45 @@
+.bookcovercard {
+    position: relative;
+    width: 300px;
+    height: 400px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bookcovercard a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .bookcovercard button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .bookcovercard button:hover {
+    background: rgba(248, 73, 73, 0.7); 
+  }
+
+@media (max-width: 768px) {
+  .bookcovercard{
+    width: 100px;
+    height: 200px;
+  }
+
+  .bookcovercard a{
+    font-size: 8px;
+  }
+
+  .bookcovercard button{
+    padding: 5px;
+  }
+}
+  

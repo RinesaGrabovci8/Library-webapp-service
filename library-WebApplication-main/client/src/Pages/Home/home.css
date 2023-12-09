@@ -1,0 +1,295 @@
+.home{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    font-family: "Droid Sans-Bold", Helvetica;
+}
+
+.homewrapper{
+    margin-top: 60px;
+}
+
+.cards-wrapper{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cards-reverse{
+    margin-left: 150px;
+}
+
+.cards-reverse .photo{
+    order: 2;
+}
+
+.moto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lateststories{
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 16px;
+    margin-top: 160px;
+}
+
+.moto p a{
+    text-decoration: none;
+    color: white;
+}
+
+.moto p a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid red;
+}
+
+.redline{
+    display: block;
+    width: 180px;
+    height: 4px;
+    background-color: red;
+    margin-bottom: 10px;
+    margin-right: 16px;
+}
+
+.cards{
+    margin-left: 150px;
+}
+
+.cmore {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 100px;
+}
+
+.seemore{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.redline2 {
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: red;
+    margin-top: -8px;
+}
+
+.ourservices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.ourservices h1{
+    font-size: 50px;
+}
+
+.readonline, .learnonline{
+    margin-top: 100px;
+}
+
+.readonline{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.readonline h3{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.readonline p{
+    margin-top: 30px;
+}
+.learnonline{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learnonline h3{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.learnonline p{
+    margin-top: 30px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color:rgb(241, 46, 46); 
+    border-radius: 50%;
+    color: white; 
+    font-size: 24px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.signup{
+    margin-top: 170px;
+    background-image: url('../../assets/images/library2.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 20px; 
+}
+
+.overlayedcontext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.overlayedcontext .first{
+    font-size: 40px;
+}
+
+.overlayedcontext .second{
+    margin-top: 190px;
+    font-size: 25px;
+}
+
+.overlayedcontext button {
+    padding: 10px 90px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+
+    .home{
+        background-color: black;
+        color: white;
+        margin: 0 auto;
+        font-family: "Droid Sans-Bold", Helvetica;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .moto{
+        margin-left: 20px 100px;
+        line-height: 25px;
+    }
+    .lateststories{
+        font-size: 15px;
+    }
+
+    .moto p{
+        font-size: 10px;
+    }
+
+    .redline{
+        width: 100px;
+        height: 2px;
+    }
+
+    .cards-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .cards{
+        margin-left: 95px;
+    }
+
+    .cards-reverse{
+        margin-left: 95px;
+    }
+
+    .cards-reverse .context{
+        order: 2;
+    }
+
+    .cmore {
+        margin-top: -50px;
+    }
+
+    .cmore .seemore{
+        font-size: 10px;
+    }
+
+    .cmore .redline2{
+        width: 30px;
+        height: 2px;
+    }
+
+    .signup{
+        height: 50vh;
+    }
+
+    .overlayedcontext .first{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .overlayedcontext .second{
+        font-size: 15px;
+    }
+
+    .ourservices h1{
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: -30px;
+    }
+
+    .readonline .circle{
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+    }
+
+    .readonline h3{
+        font-size: 20px;
+    }
+
+    .readonline p{
+        font-size: 10px;
+        text-align: center;
+        width: 300px;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+
+    .learnonline .circle{
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+    }
+
+    .learnonline h3{
+        font-size: 20px;
+    }
+
+    .learnonline p{
+        font-size: 10px;
+        text-align: center;
+        width: 300px;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+}
+  
+
+
+

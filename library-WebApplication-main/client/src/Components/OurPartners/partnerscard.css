@@ -1,0 +1,70 @@
+.partnerscard {
+    background-color: white;
+    color: black;
+    display: flex;
+    z-index: 2;
+    padding: 10px; 
+    width: 90%; 
+    width: 1000px; 
+    margin-top: 30px; 
+}
+
+.libraryphoto img{
+    height: 80%;
+    width: 70%;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+h5 {
+    font-size: 25px; 
+}
+
+p {
+    margin-top: -25px;
+    font-size: 18px; 
+}
+
+button{
+    background-color: rgb(250, 79, 79);
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(201, 33, 33);
+}
+@media (max-width: 768px) {
+    .partnerscard {
+        padding: 0px; 
+        width: 300px;
+    }
+
+    .library-context{
+        margin-left: -150px;
+        line-height: 5px;
+        margin-top: 10px;
+    }
+
+    .libraryphoto img{
+        height:70%;
+        width: 30%;
+        margin: 15px 20px;
+    }
+
+    h5 {
+        font-size: 13px; 
+    }
+
+    p {
+        font-size: 10px; 
+        margin-top: -10px; 
+    }
+
+    button {
+        padding: 5px 10px; 
+        font-size: 10px;
+        
+    }
+}

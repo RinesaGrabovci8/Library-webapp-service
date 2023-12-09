@@ -1,0 +1,162 @@
+.footer{
+    display: block;
+    margin-top: 100px;
+    font-family: "Droid Sans-Bold", Helvetica;
+    z-index: 1;
+}
+
+.firstpart{
+    display: flex;
+}
+
+.firstpart, .legal, 
+.ourservices, .joinus,
+.follow{
+    margin: 10px 85px;
+}
+
+.legal p, 
+.ourservices p, .joinus p,
+.follow p{
+    font-weight: bold;
+    letter-spacing: 5px;
+} 
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.legal a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    margin-top: -22px;
+}
+
+.ourservices a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: -78px;
+}
+
+.ourservices .read{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: -85px;
+}
+
+.joinus{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.joinus a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.icons img{
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+
+ .secondpart{
+    background-color: #fffefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 150px;
+}
+
+.copyright{
+    display: flex;
+}
+
+
+.copyright img {
+    margin-top: 3px;
+    height: 50px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.copyright p{
+    color: black;
+    margin: 20px 180px;
+    font-size: 15px;
+} 
+
+@media (max-width: 768px) {
+    .footer {
+      margin-top: 50px;
+    }
+  
+    .firstpart {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+    }
+
+    .legal,
+    .ourservices,
+    .joinus,
+    .follow{
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+  
+    .legal a,
+    .ourservices a,
+    .ourservices .read,
+    .joinus a,
+    .follow a {
+      margin-top: 10px; 
+      font-size: 10px;
+    }
+  
+    .secondpart {
+      padding: 10px;
+      margin-top: 20px; 
+      display: flex;
+    }
+  
+    .copyright img {
+      height: 30px; 
+      width: 80px; 
+    }
+    .ourservices a {
+        margin-left: 6px;
+    }
+
+    .ourservices .read{
+        margin-left:5px;
+    }
+
+    .copyright p{
+        font-size: 5px;
+        margin: 10px 10px;
+    }
+  }
