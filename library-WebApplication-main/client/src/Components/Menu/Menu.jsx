@@ -21,35 +21,35 @@ const Menu = () => {
         <button><Link to='/'>MENU</Link></button>
       </div>
       <div className='menucontext'>
-      <div className='contextt'>
-        <Box sx={{ flexGrow: 1 }}>
-          <div className='rootdiv' >
-            <div className='firstdiv' >
-              <Grid container spacing={2} columns={16}>
-                <Grid item xs={16} >
-                  <Link to="/">HOME</Link>
-                  <Link to='/ourbooks'>OUR BOOKS</Link>
-                  <Link to='/ourpartners'>OUR PARTNERS</Link>
-                  <Link to='/ourservices'>OUR SERVICES</Link>
+        <div className='contextt'>
+          <Box sx={{ flexGrow: 1 }}>
+            <div className='rootdiv' >
+              <div className='firstdiv' >
+                <Grid container spacing={2} columns={16}>
+                  <Grid item xs={16} >
+                    <Link to="/">HOME</Link>
+                    <Link to='/ourbooks'>OUR BOOKS</Link>
+                    <Link to='/ourpartners'>OUR PARTNERS</Link>
+                    <Link to='/ourservices'>OUR SERVICES</Link>
+                  </Grid>
                 </Grid>
-              </Grid>
-            </div>
-            <div className='seconddiv' >
-              <Grid container spacing={2} columns={16}>
-                <Grid item xs={16}>
-                  <Link to='/privacypolicy'>PRIVACY POLICY</Link>
-                  <Link to='/cookiepolicy'>COOKIE POLICY</Link>
-                  <Link to='/joinasereader'>JOIN AS A READER</Link>
-                  <Link to='/joinasapartner'>JOIN AS A PARTNER</Link>
+              </div>
+              <div className='seconddiv' >
+                <Grid container spacing={2} columns={16}>
+                  <Grid item xs={16}>
+                    <Link to='/privacypolicy'>PRIVACY POLICY</Link>
+                    <Link to='/cookiepolicy'>COOKIE POLICY</Link>
+                    <Link to='/joinasereader'>JOIN AS A READER</Link>
+                    <Link to='/joinasapartner'>JOIN AS A PARTNER</Link>
+                  </Grid>
                 </Grid>
-              </Grid>
+              </div>
             </div>
-          </div>
-        </Box>
-      </div>
-      <div className='menufooter'>
-        <p>Copyright © 2023 Shelf Share Society | Copyright © 2023 Shelf Share Partners, LLC. All rights reserved</p>
-      </div>
+          </Box>
+        </div>
+        <div className='menufooter'>
+          <p>Copyright © 2023 Shelf Share Society | Copyright © 2023 Shelf Share Partners, LLC. All rights reserved</p>
+        </div>
       </div>
     </div>
   )

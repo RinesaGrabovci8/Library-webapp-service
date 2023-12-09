@@ -104,9 +104,9 @@
     }
 
     .menu .button button{
-      margin-left:200px; 
-        width: 30%; 
-        margin-top: 30px;
+      margin-left:280px; 
+      width: 20%; 
+      margin-top: 30px;
     }
 
     .menu .button button a{
@@ -115,7 +115,7 @@
 
     .menucontext{
       margin-left: 450px;
-      margin-top: 80px;
+      margin-top: 150px;
     }
 
     .rootdiv .firstdiv{
@@ -123,11 +123,11 @@
     }
 
     .rootdiv .firstdiv a{
-      font-size: 15px;
+      font-size: 25px;
     }
 
     .rootdiv .seconddiv a{
-      font-size: 15px;
+      font-size: 25px;
     }
   
     .contextt {
@@ -144,12 +144,12 @@
     .menufooter{
       text-align: center;
       margin-top: 200px;
-      margin-left: -320px;
+      margin-left: -220px;
     }
   
     .menufooter p {
       display: inline;
-      font-size: 6px;
+      font-size: 8px;
     }
   
     .contextt a {
